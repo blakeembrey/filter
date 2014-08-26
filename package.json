@@ -1,6 +1,6 @@
 {
   "name": "util-filter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Filter an object, array or string",
   "main": "filter.js",
   "scripts": {
