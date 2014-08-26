@@ -74,4 +74,8 @@ describe('filter', function () {
   it('should not error with undefined value', function () {
     filter(null /*, function () {} */);
   });
+
+  it('should filter based on truthiness by default', function () {
+    expect(filter({ a: 0, b: 1, c: 2 })).to.deep.equal({ b: 1, c: 2 });
+  });
 });

@@ -1,4 +1,14 @@
 /**
+ * The default callback function will filter based on truthiness of value.
+ *
+ * @param  {*}       value
+ * @return {Boolean}
+ */
+var defaultFn = function (value) {
+  return !!value;
+};
+
+/**
  * Filer values of an object, array or string.
  *
  * @param  {Object}   obj
@@ -12,6 +22,9 @@ module.exports = function (obj, fn, context) {
   if (obj == null) {
     return obj;
   }
+
+  // Set the default filter function.
+  fn = fn || defaultFn;
 
   if (Array.isArray(obj)) {
     var array = [];
