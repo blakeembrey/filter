@@ -1,5 +1,7 @@
 # Filter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/filter.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
