@@ -1,11 +1,9 @@
 # Filter
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/filter.svg)](https://greenkeeper.io/)
-
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/filter.svg)](https://greenkeeper.io/)
 
 Filter an object, array or string and keep the result as the same type.
 
@@ -53,5 +51,3 @@ MIT
 [travis-url]: https://travis-ci.org/blakeembrey/filter
 [coveralls-image]: https://img.shields.io/coveralls/blakeembrey/filter.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/blakeembrey/filter?branch=master
-[gittip-image]: https://img.shields.io/gittip/blakeembrey.svg?style=flat
-[gittip-url]: https://www.gittip.com/blakeembrey
